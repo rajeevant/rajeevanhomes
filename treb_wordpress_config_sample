@@ -1,0 +1,26 @@
+[treb]
+agent_id: 9567148
+trebuser: trebusername
+trebpass: trebpassword
+root_dir=/var/www/html/public_html
+minimum_listing: 600000
+agent_exclude:0000000,1111111
+output_file=/tmp/out_py.txt
+phone_msg : sample phone message contact information
+
+[wordpress]
+wp_url=http://www.rajeevanhomes.ca/xmlrpc.php
+wp_username=wpuser
+wp_password=wppassword
+user_perm: 500
+group_perm: 501
+
+[twitter]
+enabled: false
+consumer: 
+secret: 
+access_token:
+access_token_secret:
+hashtags: 
+bitly_user:
+bitly_key:
